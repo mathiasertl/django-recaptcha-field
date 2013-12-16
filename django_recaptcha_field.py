@@ -65,6 +65,7 @@ class _RecaptchaField(Field):
 
     default_error_messages = {
         'incorrect_solution': 'Your solution to the CAPTCHA was incorrect',
+        'invalid': 'Invalid challenge submitted',
         }
 
     def __init__(
